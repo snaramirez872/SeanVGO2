@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 10vh;
+}
+
+.logo {
+    font-size: calc(var(--general-font-size) + 10px);
+}
+
+.links {
+    display: flex;
+    gap: 3vh;
+    font-size: calc(var(--general-font-size) + 3px);
+}
+
+.links a {
+    text-decoration: none;
+}
